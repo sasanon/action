@@ -1,6 +1,5 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
-#include "Scene/SceneTitle.h"
+#include "SceneTitleMenu/SceneTitleMenu.h"
 
 USING_NS_CC;
 
@@ -40,7 +39,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // create a scene. it's an autorelease object
     // run
-    director->runWithScene(SceneTitle::create());
+    director->runWithScene(SceneTitleMenu::create());
 
     return true;
 }
